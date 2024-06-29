@@ -16,9 +16,9 @@ driver.maximize_window()
 
 
 pyautogui.PAUSE = 1.5
-pyautogui.write("joas@controllersbr.com")
+pyautogui.write("LOGIN")
 pyautogui.press("tab")
-pyautogui.write("Senha@005570")
+pyautogui.write("SENHA")
 pyautogui.press("tab")
 pyautogui.press("enter")   
 driver.find_element(By.XPATH, '//*[@id="M4"]/a/span/nobr').click() #clica em empresas
